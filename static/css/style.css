@@ -1,0 +1,36 @@
+.upload-area {
+    border: 2px dashed var(--bs-border-color);
+    background-color: var(--bs-dark);
+    transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+    border-color: var(--bs-primary);
+}
+
+#imagePreview {
+    max-height: 300px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.sample-img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#loading {
+    margin: 20px 0;
+}
+
+.alert {
+    margin-top: 15px;
+}
